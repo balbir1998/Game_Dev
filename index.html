@@ -12,18 +12,18 @@
 <body>
     <header class="header">
         <nav class="nav-container">
-            <h1 class="logo">GD.</h1>
+            <a href="index.html" class="logo">GD.</a>
             <label class="hamburger-menu" for="check"><img src="./images/icons8-menu.svg" alt="" srcset=""></label>
             <input type="checkbox" name="check" id="check" class="checkbox">
             <ul class="menus-container">
                 <label for="check"><img src="./images/XOutline.svg" class="close" alt=""></label>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our Work</a></li>
+                <li><a href="#course">Services</a></li>
+                <li><a href="#banner">Our Work</a></li>
                 <li class="btn-container"><a class="btn" href="#">Enroll Now</a></li>
             </ul>
         </nav>
-        <div class="hero-section">
+        <div class="hero-section" id="banner">
             <div class="hero-left">
                 <h1>Learn the art of <br /> Game Dev</h1>
                 <p>This is a comprehensive course on Game Development. You will learn everything from generating an idea
@@ -78,7 +78,7 @@
         </section>
     </section>
 
-    <section class="courses-section">
+    <section id="course" class="courses-section">
         <div class="courses-container">
             <h1>Our Courses</h1>
             <div class="courses-info">
@@ -104,6 +104,24 @@
             <a class="btn btn-testimonial course-btn" href="#">All Courses</a>
         </div>
     </section>
+
+    <section class="get-app-section">
+        <div class="get-app-container">
+            <h1>Get our App</h1>
+            <p>You can use our App for better experience on smartphones</p>
+            <div class="app-container">
+                <div class="app">
+                    <img src="./images/Vector.svg" alt="" srcset="" />
+                    <span>App Store</span>
+                </div>
+                <div class="app">
+                    <img src="./images/Group 8.svg" alt="" srcset="" />
+                    <span>Google Play</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>

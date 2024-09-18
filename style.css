@@ -7,6 +7,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration-line: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -43,7 +44,9 @@ body {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
-
+.logo {
+    color: #fff;
+}
 
 @media (min-width: 750px) {
 
@@ -672,5 +675,72 @@ body {
 
     .course-btn {
         margin-right: unset;
+    }
+}
+
+/*------------------------ get app section------------------------ */
+.get-app-section {
+    /* border: 1px solid black; */
+    padding-inline: 1rem;
+}
+
+.get-app-container {
+    /* border: inherit; */
+    max-width: 1134px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.get-app-container>h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #023047;
+}
+
+.get-app-container p {
+    color: #023047;
+    margin-top: 13px;
+}
+
+.app-container {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    background-color: #000;
+    color: #fff;
+    width: 280px;
+    height: 80px;
+}
+
+.app span {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+@media (max-width: 650px) {
+
+    .get-app-container>h1 {
+        font-size: 30px;
+    }
+
+    .app-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .app {
+        width: 270px;
+        height: 80px;
     }
 }
