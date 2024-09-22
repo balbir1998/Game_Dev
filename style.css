@@ -389,7 +389,7 @@ body {
 }
 
 .testimonial-card p {
-    font-weight: 18px;
+    font-size: 18px;
     font-weight: 700;
     color: #fff;
     background-color: #6F7DFB;
@@ -518,6 +518,10 @@ body {
 
 @media (max-width:480px) {
 
+    .testimonials-container {
+        padding-inline: unset;
+    }
+
     .testimonials-right h1 {
         font-size: 30px;
     }
@@ -532,8 +536,7 @@ body {
     }
 
     .testimonial-card img {
-        max-width: 100px;
-        width: 100%;
+        width: 100px;
     }
 }
 
